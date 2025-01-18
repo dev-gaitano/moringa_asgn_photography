@@ -76,3 +76,12 @@
   width: 1920px;
   margin-top: 73px;
 }
+.container_hero_footer {
+  font-size: 80px;
+  position: absolute;
+  top: 1110px;
+  right: 40px;
+  font-weight: bolder;
+  font-family: helvetica;
+  color: #b81a1a;
+}
