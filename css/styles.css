@@ -4,13 +4,13 @@
   /* border: 1px solid red; */
 }
 .container {
-  margin: 30px;
+  margin: 40px;
 }
 #menu_icon {
   width: 20px;
 }
 .container_navbar {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,13 +23,24 @@
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  gap: 50px;
+  gap: 60px;
 }
 .container_navbar_menu {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
+}
+.container_hero {
+  margin-top: 100px;
+}
+.container_hero_intro {
+  border: 1px solid red;
+  width: 500px;
+  font-size: 20px;
+}
+.container_hero_header {
+  font-size: 80px;
 }
