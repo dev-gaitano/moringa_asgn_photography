@@ -32,8 +32,9 @@
   color: #b3b3b3;
   font-family: Helvetica;
 }
-.container_navbar_quick_options ul li:hover {
+.container_navbar_quick_options ul li a {
   transition: all 0.5s ease 0s;
+  text-decoration: none;
 }
 .container_navbar_quick_options ul li:hover {
   color: #000000;
@@ -50,13 +51,16 @@
   gap: 15px;
   color: #b3b3b3;
   font-family: Helvetica;
-  transition: all 0.5s ease 0s;
 }
 .container_navbar_menu:hover {
   color: #000000;
   font-weight: bold;
   font-family: Helvetica;
   cursor: pointer;
+}
+#menu {
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
 }
 .container_hero {
   /* border: 1px solid red; */
@@ -77,7 +81,11 @@
   font-weight: bolder;
   font-family: helvetica;
 }
-.container_hero_footer {
+#moses_on_couch {
+  width: 1920px;
+  margin-top: 65px;
+}
+.container_about_header {
   font-size: 80px;
   position: absolute;
   top: 1345px;
@@ -86,11 +94,7 @@
   font-family: helvetica;
   color: #b81a1a;
 }
-#moses_on_couch {
-  width: 1920px;
-  margin-top: 65px;
-}
-.container_about_main {
+.container_about_body {
   /* border: 1px solid red; */
   margin-top: 100px;
   margin-bottom: 70px;
@@ -100,6 +104,6 @@
   font-size: 20px;
   color: #7c7c7c;
 }
-.container_about_main p {
+.container_about_body p {
   margin: 20px;
 }
