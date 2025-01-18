@@ -7,6 +7,11 @@
   width: 20px;
   opacity: 0.3;
 }
+#menu_icon:hover {
+  width: 20px;
+  opacity: 1;
+  cursor: pointer;
+}
 .container_navbar {
   /* border: 1px solid red; */
   display: flex;
@@ -26,6 +31,12 @@
   color: #b3b3b3;
   font-family: Helvetica;
 }
+.container_navbar_quick_options ul li:hover {
+  color: #000000;
+  font-weight: bold;
+  font-family: Helvetica;
+  cursor: pointer;
+}
 .container_navbar_menu {
   /* border: 1px solid red; */
   display: flex;
@@ -35,6 +46,12 @@
   gap: 15px;
   color: #b3b3b3;
   font-family: Helvetica;
+}
+.container_navbar_menu:hover {
+  color: #000000;
+  font-weight: bold;
+  font-family: Helvetica;
+  cursor: pointer;
 }
 .container_hero {
   /* border: 1px solid red; */
@@ -52,7 +69,7 @@
   font-size: 80px;
   position: absolute;
   top: 320px;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: helvetica;
 }
 #moses_on_couch {
