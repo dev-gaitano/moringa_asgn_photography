@@ -137,7 +137,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* align-content: center; */
   justify-content: space-around;
   text-align: center;
   gap: 20px;
@@ -145,7 +144,7 @@
 .container_content_main_quote p {
   width: 700px;
 }
-.container_content_main_row2 {
+.container_content_main_row3 {
   display: flex;
   height: 550px;
   justify-content: space-evenly;
