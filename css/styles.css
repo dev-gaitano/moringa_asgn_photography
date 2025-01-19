@@ -163,3 +163,9 @@
   justify-content: space-evenly;
   margin-bottom: 25px;
 }
+.container_footer {
+  background-color: #b81a1a;
+  width: 1905px;
+  display: flex;
+  justify-content: space-between;
+}
