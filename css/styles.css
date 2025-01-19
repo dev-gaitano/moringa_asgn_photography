@@ -130,10 +130,15 @@
   margin-bottom: 25px;
   gap: 10px;
 }
+.container_content_main_row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .container_content_main_quote {
   color: white;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
