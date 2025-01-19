@@ -13,11 +13,6 @@
   opacity: 0.3;
   transition: all 0.5s ease 0s;
 }
-#menu_icon:hover {
-  width: 20px;
-  opacity: 1;
-  cursor: pointer;
-}
 .container_navbar {
   /* border: 1px solid red; */
   display: flex;
@@ -67,16 +62,16 @@
 .container_navbar_menu:hover {
   cursor: pointer;
 }
-#menu {
-  text-decoration: none;
-  transition: all 0.5s ease 0s;
-  color: #b3b3b3;
-}
-#menu:hover {
+.container_navbar_menu:hover #menu {
   color: #000000;
   font-weight: bold;
   font-family: Helvetica;
   cursor: pointer;
+}
+#menu {
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+  color: #b3b3b3;
 }
 .container_hero {
   /* border: 1px solid red; */
