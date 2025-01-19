@@ -82,7 +82,7 @@
   font-family: helvetica;
 }
 #moses_on_couch {
-  width: 1920px;
+  width: 1905px;
   margin-top: 65px;
 }
 .container_about_header {
@@ -106,4 +106,14 @@
 }
 .container_about_body p {
   margin: 20px;
+}
+.container_content {
+  background-color: #000000;
+  padding-top: 20px;
+  width: 1905px;
+}
+.container_content_main_row1 {
+  display: flex;
+  height: 550px;
+  justify-content: space-evenly;
 }
