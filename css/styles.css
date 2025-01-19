@@ -145,6 +145,12 @@
   margin-bottom: 25px;
   gap: 10px;
 }
+.container_content_main_row1 img {
+  transition: all 0.5s ease 0s;
+}
+.container_content_main_row1 img:hover {
+  opacity: 0.5;
+}
 .container_content_main_row2 {
   display: flex;
   flex-direction: column;
@@ -179,7 +185,7 @@
 .container_content_main_seemore button a {
   width: 128px;
   text-decoration: none;
-  color: #7c7c7c;
+  color: #d0d0d0;
   transition: all 0.5s ease 0s;
 }
 .container_content_main_seemore button a:hover {
@@ -190,6 +196,12 @@
   height: 550px;
   justify-content: space-evenly;
   margin-bottom: 25px;
+}
+.container_content_main_row3 img {
+  transition: all 0.5s ease 0s;
+}
+.container_content_main_row3 img:hover {
+  opacity: 0.5;
 }
 .container_footer {
   background-color: #b81a1a;
