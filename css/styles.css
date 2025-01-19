@@ -178,6 +178,9 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+.container_footer_column1 a {
+  text-decoration: none;
+}
 .container_footer_column2 {
   margin: 40px;
   text-align: right;
@@ -196,4 +199,8 @@
 .column2_info_links {
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
+}
+.column2_info_links a {
+  text-decoration: none;
 }
