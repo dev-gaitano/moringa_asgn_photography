@@ -35,8 +35,9 @@
 .container_navbar_quick_options ul li a {
   transition: all 0.5s ease 0s;
   text-decoration: none;
+  color: #b3b3b3;
 }
-.container_navbar_quick_options ul li:hover {
+.container_navbar_quick_options ul li a:hover {
   color: #000000;
   font-weight: bold;
   font-family: Helvetica;
@@ -53,14 +54,18 @@
   font-family: Helvetica;
 }
 .container_navbar_menu:hover {
-  color: #000000;
-  font-weight: bold;
-  font-family: Helvetica;
   cursor: pointer;
 }
 #menu {
   text-decoration: none;
   transition: all 0.5s ease 0s;
+  color: #b3b3b3;
+}
+#menu:hover {
+  color: #000000;
+  font-weight: bold;
+  font-family: Helvetica;
+  cursor: pointer;
 }
 .container_hero {
   /* border: 1px solid red; */
@@ -181,6 +186,12 @@
 }
 .container_footer_column1 a {
   text-decoration: none;
+  color: rgb(200, 200, 200);
+  transition: all 0.5s ease 0s;
+}
+.container_footer_column1 a:hover {
+  color: white;
+  font-weight: bold;
 }
 .container_footer_column2 {
   margin: 40px;
@@ -209,4 +220,10 @@
 }
 .column2_info_links a {
   text-decoration: none;
+  color: rgb(200, 200, 200);
+  transition: all 0.5s ease 0s;
+}
+.column2_info_links a:hover {
+  color: white;
+  font-weight: bold;
 }
