@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   align-content: flex-start;
-  width: 1904px;
 }
 #menu_icon {
   width: 20px;
@@ -71,6 +70,7 @@
 }
 .container_hero {
   margin: 40px;
+  margin-top: 60px;
 }
 .container_hero_intro {
   width: 520px;
@@ -100,7 +100,7 @@
   }
   .container_hero_header {
     font-size: 80px;
-    top: 266px;
+    top: 286px;
   }
   .container_hero_image {
     width: 1904px;
